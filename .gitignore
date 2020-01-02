@@ -1,5 +1,6 @@
 # virtual environments
 env
+.python-version
 
 # ide folders
 .vscode
