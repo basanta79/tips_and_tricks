@@ -7,12 +7,16 @@ hash_2 = {"name" => "Pablo", "last_name" => "Lopez"}
 KEY_1 = 'custom_key'
 hash_3 = {KEY_1.to_sym => "custom_value_1"}
 
-# Access to a value using symbol
+puts("Access to a value using symbol")
 puts hash[:name]
+puts("Change the value of the hash using symbol")
+hash[:name]="Eva"
+puts hash[:name]
+puts("Access to a value using symbol created in different way")
 puts hash[:last_name]
-# This is not possible (blank in the output)
+puts("When hash is created using string you cannot access it using symbol (blank in the output)")
 puts hash_2[:name]
-# You have to use:
+puts("You have to use a string")
 puts hash_2["name"]
 
 puts hash_3[KEY_1.to_sym]
