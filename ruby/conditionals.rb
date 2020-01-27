@@ -21,3 +21,16 @@ when (5...13)
 else
     puts "mes inexistente"
 end
+
+str = ""
+
+# This only exists in Rails, not Ruby
+# if str.blank
+#     puts('string vacio')
+# end
+
+str = nil
+
+str.nil? 
+    puts('string a nil')
+
