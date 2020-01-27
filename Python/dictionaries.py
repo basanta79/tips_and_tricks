@@ -30,8 +30,14 @@ class DictionariesTest:
     def _serialize_dictionary(cls):
         print(str(cls.dict1))
         print(json.dumps(cls.dict1))
-
-
+    
+    @classmethod
+    def _propagation(cls):
+        print(json.dumps(dict1))
+        dict1=dict(
+            ...,
+            
+        )
 
 
 DictionariesTest._test_has_key()
