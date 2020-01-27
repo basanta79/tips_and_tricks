@@ -1,0 +1,1 @@
+#define ARRLEN(a) sizeof(a)/4
