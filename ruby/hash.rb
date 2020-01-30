@@ -21,6 +21,17 @@ puts hash_2["name"]
 
 puts hash_3[KEY_1.to_sym]
 puts hash_3[:custom_key]
-# Check if a key is present in a dictionary
+puts('* * * * * * * * * * * * *')
+puts('Check if a key is present in a dictionary, hash.has_key?(:name)')
 puts hash.has_key?(:name)
+puts('* * * * * * * * * * * * *')
+puts('Get hash number of pair key values. hash.length()')
+puts hash.length()
+puts('* * * * * * * * * * * * *')
+puts('Get byte size of a key in hash. hash.bytesize()')
+puts hash[:name].bytesize()
+puts('* * * * * * * * * * * * *')
+puts('Convert a hash into a string. hash.to_json()')
+puts hash.to_s()
+puts hash.to_s().bytesize()
 
