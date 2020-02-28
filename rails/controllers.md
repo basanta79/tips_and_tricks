@@ -1,0 +1,3 @@
+Controllers inherits from ApplicationController
+
+

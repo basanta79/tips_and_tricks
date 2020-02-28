@@ -43,3 +43,9 @@ class DictionariesTest:
 DictionariesTest._test_has_key()
 DictionariesTest._test_get_multimple_dimension()
 DictionariesTest._serialize_dictionary()
+
+test_none = None
+
+att = test_none.ligth
+
+print(att)

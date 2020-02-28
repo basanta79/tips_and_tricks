@@ -1,6 +1,7 @@
 
 
-name = "Pablo Lopez Basanta"
+name = "Pablo"
+@last_name = 'Lopez Basanta'
 
 # First chr
 puts name[0]
@@ -15,5 +16,7 @@ puts name [2..5]
 puts name.length
 
 # add variables inside string (Only with double quotes)
-puts "Mi nombre es #{name}"
+puts "My name is #{name}"
+
+puts "My last name is #{@last_name}"
 
